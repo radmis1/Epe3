@@ -10,12 +10,18 @@ Astora Liqueur es una app diseñada para la gestion de bodega de los licores mas
 
 
 Home
+
+
 ![home](https://firebasestorage.googleapis.com/v0/b/epe3-16909.appspot.com/o/home.png?alt=media&token=201a528c-2d45-4f1b-9dc9-37860fa98d29)
 
 Menu
+
+
 ![menu](https://firebasestorage.googleapis.com/v0/b/epe3-16909.appspot.com/o/side.png?alt=media&token=dd4e5221-52d5-4c84-8e55-359ff691da53)
 
 Agregar
+
+
 ![agregar](https://firebasestorage.googleapis.com/v0/b/epe3-16909.appspot.com/o/agregar.png?alt=media&token=dc67cca7-17a4-4979-b28b-797f89526f1c)
 
 Leer
