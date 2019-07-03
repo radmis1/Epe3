@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+
+    </ion-buttons>
+    <ion-title>
+      Bienvenido
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card class="welcome-card">
+    <ion-img src="/assets/LOGO.png"></ion-img>
+    <ion-card-header>
+      <ion-card-subtitle class="ion-text-center">Somos Astora</ion-card-subtitle>
+
+    </ion-card-header>
+    <ion-card-content class="ion-text-center">
+      <p> Esta es una aplicacion creada para la gestion de bodega de los licores mas exclusivos del mundo en el que solo
+        existe un ejemplar</p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+
+<br>
+<br>
+<br>
+<ion-footer>
+  <ion-fab vertical="bottom" horizontal="center" slot="fixed">
+    <ion-fab-button color="dark">
+      <ion-icon name="ios-beer"></ion-icon>
+    </ion-fab-button>
+
+    <ion-fab-list side="start">
+      <ion-fab-button color="dark" href="eliminar">
+        <ion-icon name="ios-trash"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button color="dark" href="leer">
+        <ion-icon name="ios-glasses"></ion-icon>
+      </ion-fab-button>
+    </ion-fab-list>
+    <ion-fab-list side="end">
+      <ion-fab-button color="dark" href="prueba">
+        <ion-icon name="ios-add"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button color="dark" href="actualizar">
+        <ion-icon name="md-create"></ion-icon>
+      </ion-fab-button>
+    </ion-fab-list>
+  </ion-fab>
+</ion-footer>

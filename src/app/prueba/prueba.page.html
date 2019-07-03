@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Agregar Licor</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-item>
+    <ion-label position="floating">Nombre</ion-label>
+    <ion-input type="text" [(ngModel)]="nombre" name="nombre"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Marca</ion-label>
+    <ion-input type="text" [(ngModel)]="marca" name="marca"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Año</ion-label>
+    <ion-input type="text" [(ngModel)]="ano" name="ano"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">tipo</ion-label>
+    <ion-input type="text" [(ngModel)]="tipo" name="tipo"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">N° de Serie</ion-label>
+    <ion-input type="text" [(ngModel)]="numeroserie" name="numeroserie"></ion-input>
+  </ion-item>
+
+  <ion-button (click)="prueba()" expand="block">Ingresar</ion-button>
+
+
+</ion-content>
+<br>
+<br>
+<br>
+<ion-footer>
+  <ion-fab vertical="bottom" horizontal="center" slot="fixed">
+    <ion-fab-button color="dark">
+      <ion-icon name="ios-beer"></ion-icon>
+    </ion-fab-button>
+
+    <ion-fab-list side="start">
+      <ion-fab-button color="dark" href="eliminar">
+        <ion-icon name="ios-trash"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button color="dark" href="leer">
+        <ion-icon name="ios-glasses"></ion-icon>
+      </ion-fab-button>
+    </ion-fab-list>
+    <ion-fab-list side="end">
+      <ion-fab-button color="dark" href="prueba">
+        <ion-icon name="ios-add"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button color="dark" href="actualizar">
+        <ion-icon name="md-create"></ion-icon>
+      </ion-fab-button>
+    </ion-fab-list>
+  </ion-fab>
+</ion-footer>

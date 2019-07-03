@@ -1,0 +1,69 @@
+<ion-header>
+    <ion-toolbar color="dark">
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+  
+      </ion-buttons>
+      <ion-title>
+        Bodega
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+<ion-content>
+  <ion-list>
+  <ion-item *ngFor="let chat of chatRooms">
+
+    <ion-label>
+      <ion-item>
+        <ion-label>Nombre</ion-label>
+      <h3>{{chat.nombre}}</h3>
+    </ion-item>
+    <ion-item>
+        <ion-label>Marca</ion-label>
+      <h3>{{chat.marca}}</h3>
+    </ion-item>
+    <ion-item>
+        <ion-label>Tipo</ion-label>
+      <h3>{{chat.tipo}}</h3>
+    </ion-item>
+    <ion-item>
+        <ion-label>Año</ion-label>
+      <h3>{{chat.ano}}</h3>
+    </ion-item>
+    <ion-item>
+        <ion-label>Fecha Ingreso</ion-label>
+      <h3>{{chat.fecha}}</h3>
+    </ion-item>
+    </ion-label>
+  </ion-item>
+  </ion-list>
+</ion-content>
+
+<br>
+<br>
+<br>
+<ion-footer>
+  <ion-fab vertical="bottom" horizontal="center" slot="fixed">
+    <ion-fab-button color="dark">
+      <ion-icon name="ios-beer"></ion-icon>
+    </ion-fab-button>
+
+    <ion-fab-list side="start">
+      <ion-fab-button color="dark" href="eliminar">
+        <ion-icon name="ios-trash"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button color="dark" href="leer">
+        <ion-icon name="ios-glasses"></ion-icon>
+      </ion-fab-button>
+    </ion-fab-list>
+    <ion-fab-list side="end">
+      <ion-fab-button color="dark" href="prueba">
+        <ion-icon name="ios-add"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button color="dark" href="actualizar">
+        <ion-icon name="md-create"></ion-icon>
+      </ion-fab-button>
+    </ion-fab-list>
+  </ion-fab>
+</ion-footer>
