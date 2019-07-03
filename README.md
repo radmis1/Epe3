@@ -1,7 +1,4 @@
-# Epe3
-Epe3 Liqueur
-
-
+# Astora Liqueur
 
 ![ASTORA](https://firebasestorage.googleapis.com/v0/b/epe3-16909.appspot.com/o/LOGO.png?alt=media&token=6064341f-58fe-43fb-a2cd-a2942a337338)
 
